@@ -27,3 +27,13 @@ As well as pooling example files, we also pool format signatures:
 
 More details here: http://wiki.curatecamp.org/index.php/Improving_format_ID_coverage
 
+
+Software Tracking
+=================
+
+Also interested in the idea of doing deeper software tracking, e.g.
+
+* Using hashes of binaries, c.f. NSRL.
+* Capturing sw dependencies http://stackoverflow.com/questions/1057234/discovery-of-dynamic-library-dependency-on-mac-os-linux
+* Fussy hashing too: http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/nm.1.html
+* Enumerating file associations, assoc and ftype on Windows, etc.

@@ -15,6 +15,7 @@
  */
 package org.apache.tika.mime;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,5 +27,12 @@ public class TikaMimeType {
 	public static List<Magic> getMagics(MimeType mt) {
 		return mt.getMagics();
 	}
-	
+
+	public static final List<String> listMagic(MimeType mimeType) {
+		 List<String> magics = new ArrayList<String>();
+		 for (Magic magic : mimeType.getMagics()) {
+		   magics.add(magic.toString());
+		 }
+		 return magics;
+	}
 }
